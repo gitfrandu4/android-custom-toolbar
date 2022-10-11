@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_chat"
+        android:title="Chat"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_info"
+        android:title="Más información"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/text_color"
+        android:title="Ajustes"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/other"
+                android:title="Otro" />
+            <item
+                android:id="@+id/number"
+                android:title="Numero" />
+            <item
+                android:id="@+id/camera"
+                android:title="Camara" />
+        </menu>
+    </item>
+</menu>
