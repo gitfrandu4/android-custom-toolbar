@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Demo-Toolbar</string>
+    <string name="chat">Chat</string>
+    <string name="more_info">Más información</string>
+    <string name="settings">Ajustes</string>
+    <string name="other">Otro</string>
+    <string name="number">Numero</string>
+    <string name="camera">Camara</string>
 </resources>

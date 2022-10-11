@@ -3,26 +3,31 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/action_chat"
-        android:title="Chat"
+        android:title="@string/chat"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/action_info"
-        android:title="Más información"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="@string/more_info"
         app:showAsAction="collapseActionView" />
     <item
         android:id="@+id/text_color"
-        android:title="Ajustes"
+        android:title="@string/settings"
         app:showAsAction="ifRoom">
         <menu>
             <item
                 android:id="@+id/other"
-                android:title="Otro" />
+                android:icon="@drawable/ic_baseline_library_add_24"
+                android:title="@string/other" />
             <item
                 android:id="@+id/number"
-                android:title="Numero" />
+                android:icon="@drawable/ic_baseline_chat_24"
+                android:title="@string/number" />
+
             <item
                 android:id="@+id/camera"
-                android:title="Camara" />
+                android:icon="@drawable/ic_baseline_camera_alt_24"
+                android:title="@string/camera" />
         </menu>
     </item>
 </menu>
